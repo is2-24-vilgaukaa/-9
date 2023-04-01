@@ -1,0 +1,121 @@
+<html>
+
+<head>
+<title>Тестирование ИС</title>
+<link rel="icon" href="../picture/img.PNG">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+
+<body>
+
+<div class="head">
+<br>
+<span>Тестирование ИС</span> <br>
+<a href="../index.html"><span>Главная</span></a>
+</div>
+
+<div class="content">
+<table class="contentTable">
+<tr>
+<td>
+<p>Функциональное тестирование — это процесс обеспечения качества (QA) в рамках цикла разработки программного 
+обеспечения, необходимый для проверки реализуемости функциональных требований, согласно спецификации тестируемого 
+программного обеспечения.</p>
+
+<p> Функциональное тестирование проводится для оценки соответствия системы или компонента заданным
+функциональным требованиям. Функциональное тестирование является типом тестирования черного ящика, в связи с чем функциональность программного обеспечения можно протестировать, не зная его внутренней работы. Это снижает 
+требования к тестировщикам в части знания языков программирования или конкретных аспектов реализации программного обеспечения.</p>
+
+</td>
+<td><img class="testImg" src="../picture/picture1.png"></td>
+</tr>
+</table>
+</div>
+
+<div class="infoBlock">
+<h2>Основные этапы функционального тестирования</h2>
+<p class="errorone">Подготовка</p>
+<p class="errortwo">Проведение</p>
+<p class="errorone">Отчет</p>
+</div>
+
+<div class="content">
+<table class="contentTable">
+<tr>
+<td><img class="testGif" src="../picture/gif3.gif"></td>    
+<td>
+<p>Ключевые преимущества:</p>
+
+<p>⦁ Функциональное тестирование ПО полностью имитирует фактическое использование системы.</p>
+<p>⦁ Позволяет своевременно выявить системные ошибки ПО и, тем самым, избежать множества проблем при работе с ним в дальнейшем.</p>
+<p>⦁ Экономия за счет исправления ошибок на более раннем этапе жизненного цикла ПО.</p>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div class="TestCont"> <br>
+<h2>Направления функционального тестирования</h2>
+<img src="../picture/picture2.PNG"> <br><br><br>
+</div> <br>
+
+<div class="infoBlock">
+<h2>В рамках функционального тестирования ПО проверяются:</h2>
+<button class="btn1">пользовательский интерфейс</button>
+<button class="btn2">API</button>
+<button class="btn1">базы данных</button>
+<button class="btn2">безопасность систем</button>
+<button class="btn1">работа клиентских и серверных приложений</button>
+<button class="btn2">общая функциональность</button>
+</div> <br><br>
+
+<div class="content">
+<table class="contentTable">
+<tr>
+<td><img class="TestGif" src="../picture/gif4.gif"></td>    
+<td>
+<p>Как выполнить функциональное тестирование?</p>
+
+<p>Прочитайте и поймите документацию проекта программного обеспечения.</p>
+<p>Спроектируйте тестовые случаи, которые охватывают все требования, указанные в документации.</p>
+<p>Просмотрите и определите базовые тестовые случаи с руководителем группы, клиентом (если применимо).</p>
+<p>Выполните тестовые случаи на AUT.</p>
+<p>Как только ошибки будут исправлены, снова выполните неудачные тестовые примеры.</p>
+<p></p>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div class="infoBlock">
+<h2>Вы можете оставить свой отзыв</h2>
+</div>
+
+<div class="feedback">
+<img src="../picture/img2.jpg"> <br>
+<input type="text" id="feedback" placeholder="Введите текст"> <br>
+<button onclick="thanks()">Отправить</button>
+<script>
+function thanks() { 
+if (!document.getElementById("feedback").value) {
+alert ("Вы не оставили свой отзыв. Попробуйте еще раз.");   
+}  
+else {
+alert ("Спасибо за ваш отзыв. Нам важно ваше мнение.");   
+}
+}
+</script>
+</div>
+
+<div class="footer">
+<br>
+<a href="myprofile.html">Профиль</a> <span>|</span>
+<a href="analysis.html">Анализ и обеспечение обработки ИС</a> <span>|</span>
+<a href="testing.html">Функциональное тестирование</a>
+</div>
+  
+</body>
+</html>

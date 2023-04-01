@@ -1,0 +1,147 @@
+<html>
+
+<head>
+<title>Тестирование ИС</title>
+<link rel="icon" href="../picture/img.PNG">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+
+<body>
+
+<div class="head">
+<br>
+<span>Тестирование ИС</span> <br>
+<a href="../index.html"><span>Главная</span></a>
+</div>
+
+<div class="content">
+<table class="contentTable">
+<tr>
+<td><img class="contentImg" src="../picture/shema.gif"></td>
+<td>
+<p>Обработка исключительных ситуаций — механизм языков программирования, 
+предназначенный для описания реакции программы на ошибки времени выполнения и другие возможные проблемы (исключения), 
+которые могут возникнуть при выполнении программы и приводят к невозможности (бессмысленности) дальнейшей отработки
+программой её базового алгоритма.</p>
+
+<p>Обработка исключительных ситуаций обеспечивает способ передачи управления и информации в неопределённую точку,
+где было выражено желание обрабатывать ситуации данного типа.</p>
+
+</td>
+</tr>
+</table>
+</div>
+
+<div class="cont"> <br>
+<h2>Исключения делятся на 2 типа:</h2>
+<img src="../picture/foto1.PNG"> 
+<img src="../picture/foto2.PNG"><br><br><br>
+</div> <br>
+
+<div class="infoBlock">
+<h2>Виды ошибок</h2>
+<p class="errorone">Синтаксические ошибки</p>
+<p class="errortwo">Семантические ошибки</p>
+<p class="errorone">Ошибки времени выполнения</p>
+<img src="../picture/error.gif">
+</div>
+
+<div class="infoBlock">
+<h2>Стандартные классы исключений</h2>
+</div>
+
+<div class="typeError">
+<table class="typeErrorTable">
+
+<tr>
+<td class="color1">Название</td>
+<td class="color1"> Описание</td>
+</tr>
+
+<tr>
+<td class="color2">Класс domain_error</td>
+<td class="color2">Этот класс служит базовым классом для всех исключений,
+создаваемых для сообщения об ошибке в домене.</td>
+</tr>
+
+<tr>
+<td class="color3">Класс invalid_argument</td>
+<td class="color3">Класс служит базовым классом для всех исключений,
+создаваемых для сообщения о недопустимом аргументе.</td>
+</tr>
+
+<tr>
+<td class="color2">Класс length_error</td>
+<td class="color2">Этот класс служит базовым для всех исключений, создаваемых для сообщения 
+о попытке создания слишком длинного объекта.</td>
+</tr>
+
+<tr>
+<td class="color3">Класс logic_error</td>
+<td class="color3">Этот класс служит базовым для всех исключений, создаваемых для сообщения об ошибках, 
+которые можно обнаружить до выполнения программы, таких как нарушение логических предварительных условий.</td>
+</tr>
+
+<tr>
+<td class="color2">Класс out_of_range</td>
+<td class="color2">Этот класс служит базовым для всех исключений, 
+создаваемых для сообщения о том, что аргумент выходит за допустимый диапазон.</td>
+</tr>
+
+<tr>
+<td class="color3">Класс overflow_error</td>
+<td class="color3">Этот класс служит базовым для всех исключений, 
+создаваемых для сообщения об арифметическом переполнении.</td>
+</tr>
+
+<tr>
+<td class="color2">Класс range_error</td>
+<td class="color2">Этот класс служит базовым для всех исключений, 
+создаваемых для сообщения об ошибке в диапазоне.</td>
+</tr>
+
+<tr>
+<td class="color3">Класс runtime_error</td>
+<td class="color3">Этот класс служит базовым для всех исключений, 
+создаваемых для сообщения об ошибках, которые можно обнаружить только при выполнении программы.</td>
+</tr>
+
+<tr>
+<td class="color2">Класс underflow_error</td>
+<td class="color2">Этот класс служит базовым для всех исключений, 
+создаваемых для сообщения об арифметической неточности.</td>
+</tr>
+
+</table>
+</div> <br>
+
+<div class="infoBlock">
+<h2>Вы можете оставить свой отзыв</h2>
+</div>
+
+<div class="feedback">
+<img src="../picture/img2.jpg"> <br>
+<input type="text" id="feedback" placeholder="Введите текст"> <br>
+<button onclick="thanks()">Отправить</button>
+<script>
+function thanks() { 
+if (!document.getElementById("feedback").value) {
+alert ("Вы не оставили свой отзыв. Попробуйте еще раз.");   
+}  
+else {
+alert ("Спасибо за ваш отзыв. Нам важно ваше мнение.");   
+}
+}
+</script>
+</div>
+
+<div class="footer">
+<br>
+<a href="myprofile.html">Профиль</a> <span>|</span>
+<a href="analysis.html">Анализ и обеспечение обработки ИС</a> <span>|</span>
+<a href="testing.html">Функциональное тестирование</a>
+</div>
+  
+</body>
+</html>
